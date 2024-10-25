@@ -3,13 +3,13 @@ import React from "react";
 export default function Checkout() {
   return (
     <div>
-      <section class=" py-8 antialiased  md:py-16">
-        <form action="#" class="mx-auto max-w-screen-xl px-4 2xl:px-0">
-          <ol class="items-center flex w-full max-w-2xl text-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:text-base">
-            <li class="after:border-1 flex items-center after:mx-6 after:hidden after:h-1 after:w-full after:border-b after:border-gray-200 text-[#2abf2a] dark:after:border-gray-700 sm:after:inline-block sm:after:content-[''] md:w-full xl:after:mx-10">
-              <span class="flex items-center after:mx-2 after:text-gray-200 after:content-['/'] dark:after:text-gray-500 sm:after:hidden">
+      <section className=" py-8 antialiased  md:py-16">
+        <form action="#" className="mx-auto max-w-screen-xl px-4 2xl:px-0">
+          <ol className="items-center flex w-full max-w-2xl text-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:text-base">
+            <li className="after:border-1 flex items-center after:mx-6 after:hidden after:h-1 after:w-full after:border-b after:border-gray-200 text-[#2abf2a] dark:after:border-gray-700 sm:after:inline-block sm:after:content-[''] md:w-full xl:after:mx-10">
+              <span className="flex items-center after:mx-2 after:text-gray-200 after:content-['/'] dark:after:text-gray-500 sm:after:hidden">
                 <svg
-                  class="me-2 h-4 w-4 sm:h-5 sm:w-5"
+                  className="me-2 h-4 w-4 sm:h-5 sm:w-5"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -29,10 +29,10 @@ export default function Checkout() {
               </span>
             </li>
 
-            <li class="after:border-1 flex items-center text-[#2abf2a] after:mx-6 after:hidden after:h-1 after:w-full after:border-b after:border-gray-200   dark:after:border-gray-700 sm:after:inline-block sm:after:content-[''] md:w-full xl:after:mx-10">
-              <span class="flex items-center   after:content-['/'] dark:after:text-gray-500 sm:after:hidden">
+            <li className="after:border-1 flex items-center text-[#2abf2a] after:mx-6 after:hidden after:h-1 after:w-full after:border-b after:border-gray-200   dark:after:border-gray-700 sm:after:inline-block sm:after:content-[''] md:w-full xl:after:mx-10">
+              <span className="flex items-center   after:content-['/'] dark:after:text-gray-500 sm:after:hidden">
                 <svg
-                  class="me-2 h-4 w-4 sm:h-5 sm:w-5"
+                  className="me-2 h-4 w-4 sm:h-5 sm:w-5"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -52,9 +52,9 @@ export default function Checkout() {
               </span>
             </li>
 
-            <li class="flex shrink-0 items-center">
+            <li className="flex shrink-0 items-center">
               <svg
-                class="me-2 h-4 w-4 sm:h-5 sm:w-5"
+                className="me-2 h-4 w-4 sm:h-5 sm:w-5"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -74,18 +74,18 @@ export default function Checkout() {
             </li>
           </ol>
 
-          <div class="mt-6 sm:mt-8 lg:flex lg:items-start lg:gap-12 xl:gap-16">
-            <div class="min-w-0 flex-1 space-y-8">
-              <div class="space-y-4">
-                <h2 class="text-xl font-semibold text-gray-900 dark:text-white">
+          <div className="mt-6 sm:mt-8 lg:flex lg:items-start lg:gap-12 xl:gap-16">
+            <div className="min-w-0 flex-1 space-y-8">
+              <div className="space-y-4">
+                <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
                   Delivery Details
                 </h2>
 
-                <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div>
                     <label
                       for="your_name"
-                      class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
                     >
                       {" "}
                       Your name{" "}
@@ -93,7 +93,7 @@ export default function Checkout() {
                     <input
                       type="text"
                       id="your_name"
-                      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
                       placeholder="Bonnie Green"
                       required
                     />
@@ -102,7 +102,7 @@ export default function Checkout() {
                   <div>
                     <label
                       for="your_email"
-                      class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
                     >
                       {" "}
                       Your email*{" "}
@@ -110,17 +110,17 @@ export default function Checkout() {
                     <input
                       type="email"
                       id="your_email"
-                      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
                       placeholder="name@flowbite.com"
                       required
                     />
                   </div>
 
                   <div>
-                    <div class="mb-2 flex items-center gap-2">
+                    <div className="mb-2 flex items-center gap-2">
                       <label
                         for="select-country-input-3"
-                        class="block text-sm font-medium text-gray-900 dark:text-white"
+                        className="block text-sm font-medium text-gray-900 dark:text-white"
                       >
                         {" "}
                         Country*{" "}
@@ -128,7 +128,7 @@ export default function Checkout() {
                     </div>
                     <select
                       id="select-country-input-3"
-                      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
                     >
                       <option selected>United States</option>
                       <option value="AS">Australia</option>
@@ -139,10 +139,10 @@ export default function Checkout() {
                   </div>
 
                   <div>
-                    <div class="mb-2 flex items-center gap-2">
+                    <div className="mb-2 flex items-center gap-2">
                       <label
                         for="select-city-input-3"
-                        class="block text-sm font-medium text-gray-900 dark:text-white"
+                        className="block text-sm font-medium text-gray-900 dark:text-white"
                       >
                         {" "}
                         City*{" "}
@@ -150,7 +150,7 @@ export default function Checkout() {
                     </div>
                     <select
                       id="select-city-input-3"
-                      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
                     >
                       <option selected>San Francisco</option>
                       <option value="NY">New York</option>
@@ -163,22 +163,22 @@ export default function Checkout() {
                   <div>
                     <label
                       for="phone-input-3"
-                      class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
                     >
                       {" "}
                       Phone Number*{" "}
                     </label>
-                    <div class="flex items-center">
+                    <div className="flex items-center">
                       <button
                         id="dropdown-phone-button-3"
                         data-dropdown-toggle="dropdown-phone-3"
-                        class="z-10 inline-flex shrink-0 items-center rounded-s-lg border border-gray-300 bg-gray-100 px-4 py-2.5 text-center text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-700"
+                        className="z-10 inline-flex shrink-0 items-center rounded-s-lg border border-gray-300 bg-gray-100 px-4 py-2.5 text-center text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-700"
                         type="button"
                       >
                         <svg
                           fill="none"
                           aria-hidden="true"
-                          class="me-2 h-4 w-4"
+                          className="me-2 h-4 w-4"
                           viewBox="0 0 20 15"
                         >
                           <rect
@@ -268,7 +268,7 @@ export default function Checkout() {
                         </svg>
                         +1
                         <svg
-                          class="-me-0.5 ms-2 h-4 w-4"
+                          className="-me-0.5 ms-2 h-4 w-4"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -287,23 +287,23 @@ export default function Checkout() {
                       </button>
                       <div
                         id="dropdown-phone-3"
-                        class="z-10 hidden w-56 divide-y divide-gray-100 rounded-lg bg-white shadow dark:bg-gray-700"
+                        className="z-10 hidden w-56 divide-y divide-gray-100 rounded-lg bg-white shadow dark:bg-gray-700"
                       >
                         <ul
-                          class="p-2 text-sm font-medium text-gray-700 dark:text-gray-200"
+                          className="p-2 text-sm font-medium text-gray-700 dark:text-gray-200"
                           aria-labelledby="dropdown-phone-button-2"
                         >
                           <li>
                             <button
                               type="button"
-                              class="inline-flex w-full rounded-md px-3 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                              className="inline-flex w-full rounded-md px-3 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                               role="menuitem"
                             >
-                              <span class="inline-flex items-center">
+                              <span className="inline-flex items-center">
                                 <svg
                                   fill="none"
                                   aria-hidden="true"
-                                  class="me-2 h-4 w-4"
+                                  className="me-2 h-4 w-4"
                                   viewBox="0 0 20 15"
                                 >
                                   <rect
@@ -401,12 +401,12 @@ export default function Checkout() {
                           <li>
                             <button
                               type="button"
-                              class="inline-flex w-full rounded-md px-3 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                              className="inline-flex w-full rounded-md px-3 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                               role="menuitem"
                             >
-                              <span class="inline-flex items-center">
+                              <span className="inline-flex items-center">
                                 <svg
-                                  class="me-2 h-4 w-4"
+                                  className="me-2 h-4 w-4"
                                   fill="none"
                                   viewBox="0 0 20 15"
                                 >
@@ -463,12 +463,12 @@ export default function Checkout() {
                           <li>
                             <button
                               type="button"
-                              class="inline-flex w-full rounded-md px-3 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                              className="inline-flex w-full rounded-md px-3 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                               role="menuitem"
                             >
-                              <span class="inline-flex items-center">
+                              <span className="inline-flex items-center">
                                 <svg
-                                  class="me-2 h-4 w-4"
+                                  className="me-2 h-4 w-4"
                                   fill="none"
                                   viewBox="0 0 20 15"
                                   xmlns="http://www.w3.org/2000/svg"
@@ -556,12 +556,12 @@ export default function Checkout() {
                           <li>
                             <button
                               type="button"
-                              class="inline-flex w-full rounded-md px-3 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                              className="inline-flex w-full rounded-md px-3 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                               role="menuitem"
                             >
-                              <span class="inline-flex items-center">
+                              <span className="inline-flex items-center">
                                 <svg
-                                  class="me-2 h-4 w-4"
+                                  className="me-2 h-4 w-4"
                                   fill="none"
                                   viewBox="0 0 20 15"
                                 >
@@ -683,12 +683,12 @@ export default function Checkout() {
                           <li>
                             <button
                               type="button"
-                              class="inline-flex w-full rounded-md px-3 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                              className="inline-flex w-full rounded-md px-3 py-2 text-sm text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                               role="menuitem"
                             >
-                              <span class="inline-flex items-center">
+                              <span className="inline-flex items-center">
                                 <svg
-                                  class="me-2 h-4 w-4"
+                                  className="me-2 h-4 w-4"
                                   fill="none"
                                   viewBox="0 0 20 15"
                                 >
@@ -741,11 +741,11 @@ export default function Checkout() {
                           </li>
                         </ul>
                       </div>
-                      <div class="relative w-full">
+                      <div className="relative w-full">
                         <input
                           type="text"
                           id="phone-input"
-                          class="z-20 block w-full rounded-e-lg border border-s-0 border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:border-s-gray-700  dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500"
+                          className="z-20 block w-full rounded-e-lg border border-s-0 border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:border-s-gray-700  dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500"
                           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                           placeholder="123-456-7890"
                           required
@@ -757,7 +757,7 @@ export default function Checkout() {
                   <div>
                     <label
                       for="email"
-                      class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
                     >
                       {" "}
                       Email{" "}
@@ -765,7 +765,7 @@ export default function Checkout() {
                     <input
                       type="email"
                       id="email"
-                      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
                       placeholder="name@flowbite.com"
                       required
                     />
@@ -774,7 +774,7 @@ export default function Checkout() {
                   <div>
                     <label
                       for="company_name"
-                      class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
                     >
                       {" "}
                       Company name{" "}
@@ -782,7 +782,7 @@ export default function Checkout() {
                     <input
                       type="text"
                       id="company_name"
-                      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
                       placeholder="Flowbite LLC"
                       required
                     />
@@ -791,7 +791,7 @@ export default function Checkout() {
                   <div>
                     <label
                       for="vat_number"
-                      class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
                     >
                       {" "}
                       VAT number{" "}
@@ -799,7 +799,7 @@ export default function Checkout() {
                     <input
                       type="text"
                       id="vat_number"
-                      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
                       placeholder="DE42313253"
                       required
                     />
@@ -809,105 +809,105 @@ export default function Checkout() {
                 </div>
               </div>
 
-              <div class="space-y-4">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+              <div className="space-y-4">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                   Payment
                 </h3>
 
-                <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-                  <div class="rounded-lg border border-gray-200 bg-gray-50 p-4 ps-4 dark:border-gray-700 dark:bg-gray-800">
-                    <div class="flex items-start">
-                      <div class="flex h-5 items-center">
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                  <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 ps-4 dark:border-gray-700 dark:bg-gray-800">
+                    <div className="flex items-start">
+                      <div className="flex h-5 items-center">
                         <input
                           id="credit-card"
                           aria-describedby="credit-card-text"
                           type="radio"
                           name="payment-method"
                           value=""
-                          class="h-4 w-4 border-gray-300 bg-white text-primary-600 focus:ring-2 focus:ring-primary-600 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600"
+                          className="h-4 w-4 border-gray-300 bg-white text-primary-600 focus:ring-2 focus:ring-primary-600 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600"
                           checked
                         />
                       </div>
 
-                      <div class="ms-4 text-sm">
+                      <div className="ms-4 text-sm">
                         <label
                           for="credit-card"
-                          class="font-medium leading-none text-gray-900 dark:text-white"
+                          className="font-medium leading-none text-gray-900 dark:text-white"
                         >
                           {" "}
                           Pay Online{" "}
                         </label>
                         <p
                           id="credit-card-text"
-                          class="mt-1 text-xs font-normal text-gray-500 dark:text-gray-400"
+                          className="mt-1 text-xs font-normal text-gray-500 dark:text-gray-400"
                         >
                           Credit/ Debit/ UPI/ etc
                         </p>
                       </div>
                     </div>
 
-                    <div class="mt-4 flex items-center gap-2">
+                    <div className="mt-4 flex items-center gap-2">
                       <button
                         type="button"
-                        class="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+                        className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
                       >
                         Delete
                       </button>
 
-                      <div class="h-3 w-px shrink-0 bg-gray-200 dark:bg-gray-700"></div>
+                      <div className="h-3 w-px shrink-0 bg-gray-200 dark:bg-gray-700"></div>
 
                       <button
                         type="button"
-                        class="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+                        className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
                       >
                         Edit
                       </button>
                     </div>
                   </div>
 
-                  <div class="rounded-lg border border-gray-200 bg-gray-50 p-4 ps-4 dark:border-gray-700 dark:bg-gray-800">
-                    <div class="flex items-start">
-                      <div class="flex h-5 items-center">
+                  <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 ps-4 dark:border-gray-700 dark:bg-gray-800">
+                    <div className="flex items-start">
+                      <div className="flex h-5 items-center">
                         <input
                           id="pay-on-delivery"
                           aria-describedby="pay-on-delivery-text"
                           type="radio"
                           name="payment-method"
                           value=""
-                          class="h-4 w-4 border-gray-300 bg-white text-primary-600 focus:ring-2 focus:ring-primary-600 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600"
+                          className="h-4 w-4 border-gray-300 bg-white text-primary-600 focus:ring-2 focus:ring-primary-600 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600"
                         />
                       </div>
 
-                      <div class="ms-4 text-sm">
+                      <div className="ms-4 text-sm">
                         <label
                           for="pay-on-delivery"
-                          class="font-medium leading-none text-gray-900 dark:text-white"
+                          className="font-medium leading-none text-gray-900 dark:text-white"
                         >
                           {" "}
                           Payment on delivery{" "}
                         </label>
                         <p
                           id="pay-on-delivery-text"
-                          class="mt-1 text-xs font-normal text-gray-500 dark:text-gray-400"
+                          className="mt-1 text-xs font-normal text-gray-500 dark:text-gray-400"
                         >
                           +$15 payment processing fee
                         </p>
                       </div>
                     </div>
 
-                    <div class="mt-4 flex items-center gap-2">
+                    <div className="mt-4 flex items-center gap-2">
                       <button
                         type="button"
-                        class="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+                        className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
                       >
                         Delete
                       </button>
 
-                      <div class="h-3 w-px shrink-0 bg-gray-200 dark:bg-gray-700"></div>
+                      <div className="h-3 w-px shrink-0 bg-gray-200 dark:bg-gray-700"></div>
 
                       <button
                         type="button"
-                        class="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+                        className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
                       >
                         Edit
                       </button>
@@ -918,37 +918,37 @@ export default function Checkout() {
                 </div>
               </div>
 
-              <div class="space-y-4">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+              <div className="space-y-4">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                   Delivery Methods
                 </h3>
 
-                <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-                  <div class="rounded-lg border border-gray-200 bg-gray-50 p-4 ps-4 dark:border-gray-700 dark:bg-gray-800">
-                    <div class="flex items-start">
-                      <div class="flex h-5 items-center">
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                  <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 ps-4 dark:border-gray-700 dark:bg-gray-800">
+                    <div className="flex items-start">
+                      <div className="flex h-5 items-center">
                         <input
                           id="dhl"
                           aria-describedby="dhl-text"
                           type="radio"
                           name="delivery-method"
                           value=""
-                          class="h-4 w-4 border-gray-300 bg-white text-primary-600 focus:ring-2 focus:ring-primary-600 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600"
+                          className="h-4 w-4 border-gray-300 bg-white text-primary-600 focus:ring-2 focus:ring-primary-600 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600"
                           checked
                         />
                       </div>
 
-                      <div class="ms-4 text-sm">
+                      <div className="ms-4 text-sm">
                         <label
                           for="dhl"
-                          class="font-medium leading-none text-gray-900 dark:text-white"
+                          className="font-medium leading-none text-gray-900 dark:text-white"
                         >
                           {" "}
                           $15 - DHL Fast Delivery{" "}
                         </label>
                         <p
                           id="dhl-text"
-                          class="mt-1 text-xs font-normal text-gray-500 dark:text-gray-400"
+                          className="mt-1 text-xs font-normal text-gray-500 dark:text-gray-400"
                         >
                           Get it by Tommorow
                         </p>
@@ -956,30 +956,30 @@ export default function Checkout() {
                     </div>
                   </div>
 
-                  <div class="rounded-lg border border-gray-200 bg-gray-50 p-4 ps-4 dark:border-gray-700 dark:bg-gray-800">
-                    <div class="flex items-start">
-                      <div class="flex h-5 items-center">
+                  <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 ps-4 dark:border-gray-700 dark:bg-gray-800">
+                    <div className="flex items-start">
+                      <div className="flex h-5 items-center">
                         <input
                           id="fedex"
                           aria-describedby="fedex-text"
                           type="radio"
                           name="delivery-method"
                           value=""
-                          class="h-4 w-4 border-gray-300 bg-white text-primary-600 focus:ring-2 focus:ring-primary-600 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600"
+                          className="h-4 w-4 border-gray-300 bg-white text-primary-600 focus:ring-2 focus:ring-primary-600 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600"
                         />
                       </div>
 
-                      <div class="ms-4 text-sm">
+                      <div className="ms-4 text-sm">
                         <label
                           for="fedex"
-                          class="font-medium leading-none text-gray-900 dark:text-white"
+                          className="font-medium leading-none text-gray-900 dark:text-white"
                         >
                           {" "}
                           Free Delivery - FedEx{" "}
                         </label>
                         <p
                           id="fedex-text"
-                          class="mt-1 text-xs font-normal text-gray-500 dark:text-gray-400"
+                          className="mt-1 text-xs font-normal text-gray-500 dark:text-gray-400"
                         >
                           Get it by Friday, 13 Dec 2023
                         </p>
@@ -987,30 +987,30 @@ export default function Checkout() {
                     </div>
                   </div>
 
-                  <div class="rounded-lg border border-gray-200 bg-gray-50 p-4 ps-4 dark:border-gray-700 dark:bg-gray-800">
-                    <div class="flex items-start">
-                      <div class="flex h-5 items-center">
+                  <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 ps-4 dark:border-gray-700 dark:bg-gray-800">
+                    <div className="flex items-start">
+                      <div className="flex h-5 items-center">
                         <input
                           id="express"
                           aria-describedby="express-text"
                           type="radio"
                           name="delivery-method"
                           value=""
-                          class="h-4 w-4 border-gray-300 bg-white text-primary-600 focus:ring-2 focus:ring-primary-600 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600"
+                          className="h-4 w-4 border-gray-300 bg-white text-primary-600 focus:ring-2 focus:ring-primary-600 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-primary-600"
                         />
                       </div>
 
-                      <div class="ms-4 text-sm">
+                      <div className="ms-4 text-sm">
                         <label
                           for="express"
-                          class="font-medium leading-none text-gray-900 dark:text-white"
+                          className="font-medium leading-none text-gray-900 dark:text-white"
                         >
                           {" "}
                           $49 - Express Delivery{" "}
                         </label>
                         <p
                           id="express-text"
-                          class="mt-1 text-xs font-normal text-gray-500 dark:text-gray-400"
+                          className="mt-1 text-xs font-normal text-gray-500 dark:text-gray-400"
                         >
                           Get it today
                         </p>
@@ -1023,22 +1023,22 @@ export default function Checkout() {
               <div>
                 <label
                   for="voucher"
-                  class="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                  className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
                 >
                   {" "}
                   Enter a gift card, voucher or promotional code{" "}
                 </label>
-                <div class="flex max-w-md items-center gap-4">
+                <div className="flex max-w-md items-center gap-4">
                   <input
                     type="text"
                     id="voucher"
-                    class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
                     placeholder=""
                     required
                   />
                   <button
                     type="button"
-                    class="flex items-center justify-center rounded-lg bg-[#2463EB] px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300   dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                    className="flex items-center justify-center rounded-lg bg-[#2463EB] px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300   dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                   >
                     Apply
                   </button>
@@ -1046,58 +1046,58 @@ export default function Checkout() {
               </div>
             </div>
 
-            <div class="mt-6 w-full space-y-6 sm:mt-8 lg:mt-0 lg:max-w-xs xl:max-w-md">
-              <div class="flow-root">
-                <div class="-my-3 divide-y divide-gray-200 dark:divide-gray-800">
-                  <dl class="flex items-center justify-between gap-4 py-3">
-                    <dt class="text-base font-normal text-gray-500 dark:text-gray-400">
+            <div className="mt-6 w-full space-y-6 sm:mt-8 lg:mt-0 lg:max-w-xs xl:max-w-md">
+              <div className="flow-root">
+                <div className="-my-3 divide-y divide-gray-200 dark:divide-gray-800">
+                  <dl className="flex items-center justify-between gap-4 py-3">
+                    <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
                       Subtotal
                     </dt>
-                    <dd class="text-base font-medium text-gray-900 dark:text-white">
+                    <dd className="text-base font-medium text-gray-900 dark:text-white">
                       $8,094.00
                     </dd>
                   </dl>
 
-                  <dl class="flex items-center justify-between gap-4 py-3">
-                    <dt class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <dl className="flex items-center justify-between gap-4 py-3">
+                    <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
                       Savings
                     </dt>
-                    <dd class="text-base font-medium text-green-500">0</dd>
+                    <dd className="text-base font-medium text-green-500">0</dd>
                   </dl>
 
-                  <dl class="flex items-center justify-between gap-4 py-3">
-                    <dt class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <dl className="flex items-center justify-between gap-4 py-3">
+                    <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
                       Store Pickup
                     </dt>
-                    <dd class="text-base font-medium text-gray-900 dark:text-white">
+                    <dd className="text-base font-medium text-gray-900 dark:text-white">
                       $99
                     </dd>
                   </dl>
 
-                  <dl class="flex items-center justify-between gap-4 py-3">
-                    <dt class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <dl className="flex items-center justify-between gap-4 py-3">
+                    <dt className="text-base font-normal text-gray-500 dark:text-gray-400">
                       Tax
                     </dt>
-                    <dd class="text-base font-medium text-gray-900 dark:text-white">
+                    <dd className="text-base font-medium text-gray-900 dark:text-white">
                       $199
                     </dd>
                   </dl>
 
-                  <dl class="flex items-center justify-between gap-4 py-3">
-                    <dt class="text-base font-bold text-gray-900 dark:text-white">
+                  <dl className="flex items-center justify-between gap-4 py-3">
+                    <dt className="text-base font-bold text-gray-900 dark:text-white">
                       Total
                     </dt>
-                    <dd class="text-base font-bold text-gray-900 dark:text-white">
+                    <dd className="text-base font-bold text-gray-900 dark:text-white">
                       $8,392.00
                     </dd>
                   </dl>
                 </div>
               </div>
 
-              <div class="space-y-3">
+              <div className="space-y-3">
                 <button
                   type="submit"
-                  class="flex w-full items-center justify-center rounded-lg bg-[#2463EB] px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300  dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                  className="flex w-full items-center justify-center rounded-lg bg-[#2463EB] px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300  dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                 >
                   Proceed to Payment
                 </button>

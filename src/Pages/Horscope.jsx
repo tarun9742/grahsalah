@@ -12,8 +12,8 @@ export default function Horscope() {
       style={{ backgroundImage: `url(${bg1})` }}
     >
       <div className="absolute z-[9] top-0 bg-black opacity-80 w-full h-full" />
-      <div class="relative mt-12 z-[999] mx-auto max-w-5xl text-center">
-        <span class="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
+      <div className="relative mt-12 z-[999] mx-auto max-w-5xl text-center">
+        <span className="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
           Get Everything
         </span>
         <AnimatedText
@@ -25,11 +25,11 @@ export default function Horscope() {
           classN="mx-auto my-4 px-2 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400"
         />
       </div>
-      <div class="relative pt-12 z-[999] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-9 px-4 lg:px-16 justify-between       ">
+      <div className="relative pt-12 z-[999] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-9 px-4 lg:px-16 justify-between       ">
         {raaasi.map((item, index) => (
           <Link
             to={{ pathname: "/horoscope-detail", search: `?id=${item.id}` }}
-            class="relative p-6 bg-gray-300 rounded-xl bg-no-repeat bg-contain"
+            className="relative p-6 bg-gray-300 rounded-xl bg-no-repeat bg-contain"
             style={{ backgroundImage: `url(${bg2})` }}
           >
             <img alt="icos" src={item.img} className="w-40" />

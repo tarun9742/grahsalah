@@ -28,14 +28,14 @@ const ScrollToTop = () => {
 function App() {
   return (
     <div className="bg-black">
-      <div class="fixed bottom-4 left-4 z-[99999]">
+      <div className="fixed bottom-4 left-4 z-[99999]">
         <a
           href="https://wa.me/your-number"
           target="_blank"
           rel="noreferrer"
-          class="flex items-center justify-center w-16 h-16 bg-green-500 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300"
+          className="flex items-center justify-center w-16 h-16 bg-green-500 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300"
         >
-          <img src={whatsappimg} alt="WhatsApp" class="w-12 h-12" />
+          <img src={whatsappimg} alt="WhatsApp" className="w-12 h-12" />
         </a>
       </div>
 

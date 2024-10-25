@@ -7,13 +7,13 @@ export default function Hero2() {
   return (
     <div>
       
-      <div class="bg-black">
+      <div className="bg-black">
         <section
           id="features"
-          class="relative block px-6 py-10 md:py-20 lg:px-16    "
+          className="relative block px-6 py-10 md:py-20 lg:px-16    "
         >
-          <div class="relative mx-auto max-w-5xl text-center">
-            <span class="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
+          <div className="relative mx-auto max-w-5xl text-center">
+            <span className="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
               Why choose us
             </span>
             <AnimatedText text="Build a Website That Your Customers Love" classN="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl" />
